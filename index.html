@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="robots" content="noindex, nofollow">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>N T Auto | Auto Repair in Griffith, Indiana</title>
+<meta name="description" content="N T Auto: independent auto repair at 131 Gatlin Dr, Griffith, IN. Diagnostics, brakes, oil changes, engine and transmission work, pre-purchase inspections. Rated 4.8 stars by 76 neighbors. Call (219) 924-9444.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;800;900&family=Barlow:wght@400;500;600&family=Saira+Stencil+One&display=swap" rel="stylesheet">
+<style>
+:root{
+  --char:#1b1c1e;
+  --char-2:#232528;
+  --steel:#3a3e43;
+  --steel-2:#8c939b;
+  --bone:#e9e6df;
+  --orange:#f08a1c;
+  --yellow:#f5c518;
+  --line:rgba(233,230,223,.14);
+  --display:"Big Shoulders Display",Impact,"Arial Narrow",sans-serif;
+  --stencil:"Saira Stencil One",var(--display);
+  --body:"Barlow",system-ui,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  background:var(--char);
+  color:var(--bone);
+  font:400 1.0625rem/1.6 var(--body);
+  -webkit-font-smoothing:antialiased;
+  overflow-x:hidden;
+}
+body::before{
+  content:"";position:fixed;inset:0;pointer-events:none;z-index:100;opacity:.07;mix-blend-mode:overlay;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--yellow);outline-offset:3px}
+.skip{position:absolute;left:-999px;top:0;background:var(--yellow);color:var(--char);padding:.6rem 1rem;z-index:200;font-weight:600}
+.skip:focus{left:1rem}
+
+.wrap{width:min(1240px,100% - 2.5rem);margin-inline:auto}
+
+/* hazard tape */
+.tape{
+  height:14px;
+  background:repeating-linear-gradient(-45deg,var(--yellow) 0 18px,var(--char) 18px 36px);
+  opacity:.92;
+}
+.tape.thin{height:8px}
+
+/* header */
+header.top{
+  position:sticky;top:0;z-index:50;
+  background:rgba(27,28,30,.92);backdrop-filter:blur(8px);
+  border-bottom:1px solid var(--line);
+}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding-block:.8rem}
+.logo{font-family:var(--stencil);font-size:1.7rem;letter-spacing:.04em;text-decoration:none;line-height:1}
+.logo span{color:var(--orange)}
+.top nav{display:none;gap:1.8rem;font-family:var(--display);font-weight:600;text-transform:uppercase;letter-spacing:.12em;font-size:.95rem}
+.top nav a{text-decoration:none;color:var(--steel-2);transition:color .2s}
+.top nav a:hover{color:var(--bone)}
+.callbtn{
+  font-family:var(--display);font-weight:800;text-transform:uppercase;letter-spacing:.06em;
+  background:var(--orange);color:var(--char);text-decoration:none;
+  padding:.55rem 1rem;font-size:1.05rem;line-height:1;
+  clip-path:polygon(0 0,100% 0,100% 70%,92% 100%,0 100%);
+  transition:background .2s;
+}
+.callbtn:hover{background:var(--yellow)}
+@media (min-width:820px){.top nav{display:flex}}
+
+/* hero */
+.hero{position:relative;overflow:hidden;border-bottom:1px solid var(--line)}
+.hero .wrap{position:relative;min-height:calc(100svh - 70px);display:grid;align-content:end;padding-block:3rem 3.5rem}
+.hero-art{
+  position:absolute;right:-28%;top:4%;width:110%;max-width:none;pointer-events:none;
+  color:var(--steel);
+}
+@media (min-width:820px){.hero-art{right:-6%;top:-4%;width:66%}}
+.bay-no{
+  position:absolute;top:1.4rem;right:0;font-family:var(--stencil);font-size:.95rem;letter-spacing:.3em;color:var(--steel-2);
+  writing-mode:vertical-rl;
+}
+.eyebrow{
+  font-family:var(--display);font-weight:600;text-transform:uppercase;letter-spacing:.28em;font-size:.85rem;color:var(--orange);
+  display:flex;align-items:center;gap:.8rem;
+}
+.eyebrow::before{content:"";width:2.4rem;height:2px;background:currentColor}
+.stat{
+  position:relative;
+  font-family:var(--display);font-weight:900;line-height:.78;letter-spacing:-.02em;
+  font-size:clamp(9rem,38vw,26rem);
+  margin:.6rem 0 0 -.05em;
+  color:var(--bone);
+}
+.stat .star{color:var(--orange);font-size:.55em;vertical-align:.62em;margin-left:.04em}
+.stat-sub{
+  font-family:var(--display);font-weight:800;text-transform:uppercase;
+  font-size:clamp(2rem,7vw,4.6rem);line-height:.9;letter-spacing:.01em;
+  margin-top:.4rem;
+}
+.stat-sub em{font-style:normal;color:var(--yellow)}
+.hero-foot{
+  display:grid;gap:1.6rem;margin-top:2.2rem;max-width:44rem;
+}
+.hero-foot p{color:#c9c6bf;font-size:1.12rem;max-width:34rem}
+.actions{display:flex;flex-wrap:wrap;gap:.9rem;align-items:center}
+.big-call{
+  display:inline-flex;align-items:center;gap:.8rem;
+  font-family:var(--display);font-weight:900;font-size:clamp(1.6rem,5vw,2.3rem);letter-spacing:.02em;
+  background:var(--orange);color:var(--char);text-decoration:none;padding:.65rem 1.3rem .7rem;line-height:1;
+  box-shadow:6px 6px 0 var(--yellow);transition:transform .15s,box-shadow .15s;
+}
+.big-call:hover{transform:translate(-2px,-2px);box-shadow:8px 8px 0 var(--yellow)}
+.big-call:active{transform:translate(3px,3px);box-shadow:2px 2px 0 var(--yellow)}
+.ghost{
+  font-family:var(--display);font-weight:600;text-transform:uppercase;letter-spacing:.14em;font-size:.95rem;
+  color:var(--bone);text-decoration:none;border-bottom:2px solid var(--steel-2);padding-bottom:.2rem;
+}
+.ghost:hover{border-color:var(--orange)}
+@media (min-width:820px){
+  .hero-foot{grid-template-columns:1fr auto;align-items:end;max-width:none}
+}
+
+/* ticker strip */
+.strip{background:var(--yellow);color:var(--char);overflow:hidden;white-space:nowrap;border-block:2px solid var(--char)}
+.strip-in{display:inline-flex;gap:2.5rem;padding:.75rem 0;animation:run 40s linear infinite;font-family:var(--display);font-weight:800;text-transform:uppercase;font-size:1.3rem;letter-spacing:.06em}
+.strip-in span::after{content:"✦";margin-left:2.5rem}
+@keyframes run{to{transform:translateX(-50%)}}
+@media (prefers-reduced-motion:reduce){.strip-in{animation:none}}
+
+/* section heads */
+section{padding-block:clamp(4.5rem,10vw,8rem)}
+.sec-head{display:grid;gap:1rem;margin-bottom:3rem}
+.tag{font-family:var(--stencil);color:var(--steel-2);letter-spacing:.2em;font-size:.95rem}
+h2{
+  font-family:var(--display);font-weight:900;text-transform:uppercase;line-height:.88;
+  font-size:clamp(3rem,10vw,6.5rem);letter-spacing:-.01em;
+}
+h2 .o{color:var(--orange)}
+.lede{color:#c9c6bf;max-width:36rem;font-size:1.12rem}
+@media (min-width:900px){.sec-head{grid-template-columns:1.2fr 1fr;align-items:end}}
+
+/* work order */
+.order{
+  background:var(--bone);color:var(--char);
+  position:relative;
+  box-shadow:0 30px 60px -30px rgba(0,0,0,.7);
+}
+.order::before{ /* punched holes */
+  content:"";position:absolute;left:0;right:0;top:-9px;height:18px;
+  background:radial-gradient(circle at 9px 9px,var(--char) 5px,transparent 6px) 0 0/34px 18px repeat-x;
+}
+.order-head{
+  display:flex;flex-wrap:wrap;justify-content:space-between;gap:.5rem 2rem;
+  padding:1.6rem 1.4rem 1rem;border-bottom:3px solid var(--char);
+  font-family:var(--display);font-weight:800;text-transform:uppercase;letter-spacing:.08em;
+}
+.order-head small{font-weight:600;color:#5d6167;letter-spacing:.14em}
+.jobs{list-style:none}
+.job{
+  display:grid;grid-template-columns:2.6rem 1fr;gap:.2rem 1rem;
+  padding:1.4rem 1.4rem;border-bottom:1px dashed #9a9d a1;border-bottom:1px dashed #a5a7aa;
+  transition:background .2s;
+  position:relative;
+}
+.job:hover{background:#fff6e2}
+.job .no{font-family:var(--stencil);font-size:1.3rem;color:var(--orange);line-height:1.3}
+.job h3{font-family:var(--display);font-weight:800;text-transform:uppercase;font-size:clamp(1.6rem,4.5vw,2.4rem);line-height:1;letter-spacing:.01em}
+.job p{grid-column:2;color:#3d4046;max-width:40rem}
+.job .chk{
+  position:absolute;right:1.4rem;top:1.4rem;width:28px;height:28px;border:2px solid var(--char);
+  display:grid;place-items:center;
+}
+.job .chk svg{opacity:0;transform:scale(.4);transition:.25s}
+.job:hover .chk svg{opacity:1;transform:none}
+.order-foot{
+  padding:1.2rem 1.4rem 1.6rem;display:flex;flex-wrap:wrap;gap:1rem;justify-content:space-between;align-items:center;
+  font-family:var(--display);font-weight:600;text-transform:uppercase;letter-spacing:.1em;font-size:.95rem;color:#5d6167;
+}
+.order-foot a{color:var(--char);font-weight:800}
+@media (min-width:820px){
+  .order{transform:rotate(-.6deg);margin-right:6%}
+  .jobs{display:grid;grid-template-columns:1fr 1fr}
+  .job:nth-child(odd){border-right:1px dashed #a5a7aa}
+  .order-head,.job,.order-foot{padding-inline:2rem}
+}
+
+/* shop rules */
+.rules{background:var(--char-2);border-block:1px solid var(--line);position:relative;overflow:hidden}
+.rules-grid{display:grid;gap:0}
+.rule{
+  padding:2rem 0;border-top:1px solid var(--line);display:grid;gap:.6rem;
+}
+.rule:last-child{border-bottom:1px solid var(--line)}
+.rule .num{font-family:var(--display);font-weight:900;font-size:4.5rem;line-height:.8;color:transparent;-webkit-text-stroke:1.5px var(--steel-2)}
+.rule h3{font-family:var(--display);font-weight:800;text-transform:uppercase;font-size:clamp(1.8rem,5vw,2.8rem);line-height:.95}
+.rule p{color:#bdbab3;max-width:34rem}
+@media (min-width:900px){
+  .rule{grid-template-columns:8rem 1fr 1.1fr;align-items:start;gap:2rem;padding:2.6rem 0}
+  .rule:nth-child(2){margin-left:6rem}
+  .rule:nth-child(3){margin-left:12rem}
+}
+.rule:hover .num{color:var(--orange);-webkit-text-stroke-color:var(--orange)}
+.rule .num{transition:color .25s}
+
+/* area */
+.area-grid{display:grid;gap:3rem}
+.towns{list-style:none;font-family:var(--display);font-weight:900;text-transform:uppercase;line-height:.92;font-size:clamp(3rem,11vw,7rem)}
+.towns li{display:flex;align-items:baseline;gap:1rem;color:var(--steel)}
+.towns li.home{color:var(--bone)}
+.towns li.home::after{content:"HOME BAY";font-family:var(--stencil);font-size:.9rem;letter-spacing:.2em;color:var(--orange);font-weight:400}
+.towns li:hover{color:var(--steel-2)}
+.towns li.home:hover{color:var(--bone)}
+.area-note{align-self:end;color:#c9c6bf;max-width:28rem}
+.area-note strong{color:var(--bone)}
+@media (min-width:900px){.area-grid{grid-template-columns:1.4fr 1fr}}
+
+/* contact */
+.contact{padding-bottom:0}
+.contact-card{
+  display:grid;border:2px solid var(--steel);
+}
+.contact-card > div{padding:2rem 1.4rem;border-bottom:2px solid var(--steel)}
+.contact-card > div:last-child{border-bottom:0}
+.label{font-family:var(--stencil);letter-spacing:.2em;font-size:.9rem;color:var(--orange);margin-bottom:.8rem}
+.phone{
+  font-family:var(--display);font-weight:900;line-height:.85;text-decoration:none;
+  font-size:clamp(3.4rem,13vw,8.5rem);letter-spacing:-.01em;display:inline-block;
+  transition:color .2s;
+}
+.phone:hover{color:var(--yellow)}
+.contact-card address{font-style:normal;font-family:var(--display);font-weight:800;text-transform:uppercase;font-size:clamp(1.7rem,4vw,2.4rem);line-height:1}
+.contact-card p{color:#bdbab3;margin-top:.8rem}
+.contact-card .ghost{display:inline-block;margin-top:1.2rem}
+@media (min-width:900px){
+  .contact-card{grid-template-columns:1.6fr 1fr}
+  .contact-card > div:first-child{grid-row:span 2;border-bottom:0;border-right:2px solid var(--steel);padding:3rem}
+  .contact-card > div{padding:2.4rem}
+}
+.callout{
+  margin-top:1.4rem;font-size:1.1rem;color:#c9c6bf;max-width:30rem;
+}
+
+footer{margin-top:clamp(4rem,8vw,6rem)}
+footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:1rem;padding-block:2rem;color:var(--steel-2);font-size:.92rem}
+footer .credit{opacity:.7}
+footer .credit a{text-decoration:none}
+footer .credit a:hover{color:var(--bone)}
+
+/* scroll reveal */
+@supports (animation-timeline:view()){
+  @media (prefers-reduced-motion:no-preference){
+    .rv{animation:rise linear both;animation-timeline:view();animation-range:entry 0% cover 28%}
+    @keyframes rise{from{opacity:0;transform:translateY(40px)}to{opacity:1;transform:none}}
+  }
+}
+@media (prefers-reduced-motion:no-preference){
+  .hero-art .wr{transform-origin:62% 50%;animation:swing 1.4s cubic-bezier(.2,.8,.2,1) both}
+  @keyframes swing{from{transform:rotate(-18deg) translateX(40px);opacity:0}}
+  .stat{animation:in .9s .15s cubic-bezier(.2,.8,.2,1) both}
+  @keyframes in{from{opacity:0;transform:translateY(30px)}}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="tape thin" aria-hidden="true"></div>
+<header class="top">
+  <div class="wrap">
+    <a class="logo" href="#top" aria-label="N T Auto home">N T <span>AUTO</span></a>
+    <nav aria-label="Main">
+      <a href="#work">The Work</a>
+      <a href="#rules">How We Run It</a>
+      <a href="#area">Where</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="callbtn" href="tel:+12199249444">Call Shop</a>
+  </div>
+</header>
+
+<main id="main">
+<section class="hero" id="top" aria-labelledby="hero-title" style="padding:0">
+  <svg class="hero-art" viewBox="0 0 800 800" aria-hidden="true" fill="none">
+    <!-- lift post & arm -->
+    <g stroke="currentColor" stroke-width="2" opacity=".55">
+      <rect x="610" y="40" width="70" height="760" />
+      <line x1="645" y1="40" x2="645" y2="800" stroke-dasharray="6 14"/>
+      <rect x="380" y="430" width="260" height="34"/>
+      <rect x="360" y="414" width="40" height="66"/>
+      <circle cx="380" cy="447" r="8"/>
+    </g>
+    <!-- wrench -->
+    <g class="wr">
+      <g transform="rotate(-38 400 400)">
+        <path d="M150 360 h390 a40 40 0 0 1 0 80 h-390 a40 40 0 0 1 0 -80z" fill="#2c2f33" stroke="#4a4f55" stroke-width="2"/>
+        <path d="M540 330 a90 90 0 1 1 0 140 l40 -30 h55 v-80 h-55z" fill="#2c2f33" stroke="#4a4f55" stroke-width="2"/>
+        <path d="M100 400 a95 95 0 1 0 -10 -2" fill="none"/>
+        <circle cx="120" cy="400" r="92" fill="#2c2f33" stroke="#4a4f55" stroke-width="2"/>
+        <polygon points="120,350 163,375 163,425 120,450 77,425 77,375" fill="#1b1c1e" stroke="#4a4f55" stroke-width="2"/>
+        <line x1="220" y1="388" x2="500" y2="388" stroke="#5a6067" stroke-width="2"/>
+        <text x="260" y="420" font-family="Saira Stencil One, sans-serif" font-size="26" fill="#f08a1c" letter-spacing="6">N T AUTO · 3/4</text>
+      </g>
+    </g>
+  </svg>
+  <span class="bay-no" aria-hidden="true">BAY 01 · GRIFFITH IN</span>
+  <div class="wrap">
+    <p class="eyebrow">Independent repair · 131 Gatlin Dr</p>
+    <h1 id="hero-title">
+      <span class="stat">4.8<span class="star" aria-hidden="true">★</span></span>
+      <span class="stat-sub">from <em>76</em> neighbors.<br>No billboard needed.</span>
+    </h1>
+    <div class="hero-foot">
+      <p>N T Auto is a local shop in Griffith that fixes cars, trucks and daily drivers of most makes. We tell you what's wrong, what it costs, and what can wait. Then we get you back on the road.</p>
+      <div class="actions">
+        <a class="big-call" href="tel:+12199249444">(219) 924-9444</a>
+        <a class="ghost" href="#work">See the work</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="strip" aria-hidden="true">
+  <div class="strip-in">
+    <span>Diagnostics</span><span>Brakes</span><span>Oil changes</span><span>Engine</span><span>Transmission</span><span>Pre-purchase inspections</span><span>Most makes &amp; models</span>
+    <span>Diagnostics</span><span>Brakes</span><span>Oil changes</span><span>Engine</span><span>Transmission</span><span>Pre-purchase inspections</span><span>Most makes &amp; models</span>
+  </div>
+</div>
+
+<section id="work" aria-labelledby="work-title">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <div>
+        <p class="tag">// WORK ORDER</p>
+        <h2 id="work-title">What comes<br>through <span class="o">the bay</span></h2>
+      </div>
+      <p class="lede">No dealership badge on the door, so no single brand we're stuck with. Bring in what you drive. If it needs fixing, we'll explain it plainly.</p>
+    </div>
+
+    <div class="order rv">
+      <div class="order-head">
+        <span>N T Auto · Service Ticket</span>
+        <small>Griffith, IN 46319</small>
+      </div>
+      <ul class="jobs">
+        <li class="job">
+          <span class="no">01</span>
+          <h3>Diagnostics</h3>
+          <p>Check engine light, strange noise, a shake at 50 mph. We find the actual cause before we touch your wallet, and tell you straight.</p>
+          <span class="chk" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 18 18"><path d="M2 9l5 5 9-11" stroke="#f08a1c" stroke-width="3" fill="none"/></svg></span>
+        </li>
+        <li class="job">
+          <span class="no">02</span>
+          <h3>Brake Service</h3>
+          <p>Pads, rotors, calipers, lines. Squealing or grinding, soft pedal, pulling to one side. Get it looked at before it gets expensive.</p>
+          <span class="chk" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 18 18"><path d="M2 9l5 5 9-11" stroke="#f08a1c" stroke-width="3" fill="none"/></svg></span>
+        </li>
+        <li class="job">
+          <span class="no">03</span>
+          <h3>Oil &amp; Maintenance</h3>
+          <p>Oil changes and the routine stuff that keeps a daily driver going, done quickly so you're not without your car longer than you have to be.</p>
+          <span class="chk" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 18 18"><path d="M2 9l5 5 9-11" stroke="#f08a1c" stroke-width="3" fill="none"/></svg></span>
+        </li>
+        <li class="job">
+          <span class="no">04</span>
+          <h3>Engine &amp; Transmission</h3>
+          <p>The bigger jobs. We'll lay out the options honestly, including when repair makes sense and when it doesn't.</p>
+          <span class="chk" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 18 18"><path d="M2 9l5 5 9-11" stroke="#f08a1c" stroke-width="3" fill="none"/></svg></span>
+        </li>
+        <li class="job">
+          <span class="no">05</span>
+          <h3>General Repair</h3>
+          <p>Everything in between: suspension, cooling, electrical gremlins, the problem you can't quite describe on the phone. Call anyway.</p>
+          <span class="chk" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 18 18"><path d="M2 9l5 5 9-11" stroke="#f08a1c" stroke-width="3" fill="none"/></svg></span>
+        </li>
+        <li class="job">
+          <span class="no">06</span>
+          <h3>Pre-Purchase Inspection</h3>
+          <p>Buying used? Have it checked before you hand over the money. A second set of eyes that isn't the seller's.</p>
+          <span class="chk" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 18 18"><path d="M2 9l5 5 9-11" stroke="#f08a1c" stroke-width="3" fill="none"/></svg></span>
+        </li>
+      </ul>
+      <div class="order-foot">
+        <span>Not listed? Ask.</span>
+        <a href="tel:+12199249444">Call (219) 924-9444 →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="rules" id="rules" aria-labelledby="rules-title">
+  <div class="tape" aria-hidden="true" style="position:absolute;top:0;left:0;right:0"></div>
+  <div class="wrap">
+    <div class="sec-head rv">
+      <div>
+        <p class="tag">// SHOP RULES</p>
+        <h2 id="rules-title">How we<br><span class="o">run it</span></h2>
+      </div>
+      <p class="lede">Seventy-six people didn't leave reviews because of a slick waiting room. It comes down to a few things we don't bend on.</p>
+    </div>
+    <div class="rules-grid">
+      <div class="rule rv">
+        <span class="num">01</span>
+        <h3>No upsell.</h3>
+        <p>We diagnose what's actually wrong and tell you what needs doing now versus what can wait. If it doesn't need fixing, we'll say so.</p>
+      </div>
+      <div class="rule rv">
+        <span class="num">02</span>
+        <h3>Your daily driver, back fast.</h3>
+        <p>We know most families around here run on one or two vehicles. Quick turnaround isn't a perk, it's the point.</p>
+      </div>
+      <div class="rule rv">
+        <span class="num">03</span>
+        <h3>A name on the door.</h3>
+        <p>Independent and local. No corporate script, no service advisor quota. Just the people who worked on your car, accountable for it.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="area" aria-labelledby="area-title">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <div>
+        <p class="tag">// SERVICE AREA</p>
+        <h2 id="area-title">Lake County<br><span class="o">drivers</span></h2>
+      </div>
+    </div>
+    <div class="area-grid">
+      <ul class="towns rv" aria-label="Communities we serve">
+        <li class="home">Griffith</li>
+        <li>Highland</li>
+        <li>Schererville</li>
+        <li>Dyer</li>
+      </ul>
+      <p class="area-note rv">Based at <strong>131 Gatlin Dr in Griffith</strong>, a short drive from Highland, Schererville, Dyer and the rest of NW Indiana. If you'd rather skip the dealership service line, you're who we're here for.</p>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact" aria-labelledby="contact-title">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <div>
+        <p class="tag">// NEXT STEP</p>
+        <h2 id="contact-title">Tell us what<br>it's <span class="o">doing.</span></h2>
+      </div>
+      <p class="lede">The fastest way to get on the schedule, or just ask whether that noise is worth worrying about, is a phone call.</p>
+    </div>
+    <div class="contact-card rv">
+      <div>
+        <p class="label">CALL THE SHOP</p>
+        <a class="phone" href="tel:+12199249444">(219)<br>924-9444</a>
+        <p class="callout">Describe the problem, the make and model, and when you need it back. We'll take it from there.</p>
+      </div>
+      <div>
+        <p class="label">DRIVE IN</p>
+        <address>131 Gatlin Dr<br>Griffith, IN 46319</address>
+        <a class="ghost" href="https://www.google.com/maps/search/?api=1&amp;query=N+T+Auto+131+Gatlin+Dr+Griffith+IN+46319" target="_blank" rel="noopener">Get directions →</a>
+      </div>
+      <div>
+        <p class="label">HOURS</p>
+        <p style="margin-top:0;color:var(--bone);font-family:var(--display);font-weight:800;text-transform:uppercase;font-size:1.6rem;line-height:1">Call for current hours</p>
+        <p>Give us a ring before you head over and we'll confirm when the bay's open.</p>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="tape thin" aria-hidden="true"></div>
+  <div class="wrap">
+    <span>© 2026 N T Auto · 131 Gatlin Dr, Griffith, IN 46319 · (219) 924-9444</span>
+    <span class="credit">Website sample by Wild Card Creative Co</span>
+  </div>
+</footer>
+</body>
+</html>
